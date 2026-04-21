@@ -1,144 +1,150 @@
-// Mock data for matrimonial persona portfolio — luxury black edition
+// Mock data for Selva Vignesh M — matrimonial persona portfolio
 
 export const profile = {
-  fullName: "Arjun Mehta",
-  shortName: "Arjun",
-  age: 30,
-  location: "Mumbai, India",
-  tagline: "Measured in craft, steady in character.",
+  fullName: "Selva Vignesh M",
+  shortName: "Selva",
+  age: 25,
+  location: "Coimbatore, India",
+  tagline: "An enthu guy — tech, running shoes, and a big heart.",
   intro:
-    "I believe in well-made things, quiet discipline, and the kind of conversations that last long after the coffee has gone cold. This page is a small, honest introduction — not a pitch, just a handshake.",
+    "I live life fully — contributing to tech, mentoring student communities, chasing marathons, and loving deeply. I show up as a friend first, and I believe a partnership is built on emotional expression, honest conversations, and showing up on ordinary days.",
   heroImage:
-    "https://images.unsplash.com/photo-1744551358258-5a5b9b268eca?auto=format&fit=crop&w=1200&q=80",
+    "https://customer-assets.emergentagent.com/job_portfolio-pro-935/artifacts/j4mr5osm_WhatsApp%20Image%202026-04-21%20at%208.29.14%20AM.jpeg",
   aboutImage:
-    "https://images.unsplash.com/photo-1600261731040-80f8315adc7f?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1711843250811-a7d0bb485a42?auto=format&fit=crop&w=1200&q=80",
   homeImage:
     "https://images.unsplash.com/photo-1711843250811-a7d0bb485a42?auto=format&fit=crop&w=1600&q=80",
   height: "6'0\"",
-  zodiac: "Capricorn",
-  diet: "Omnivore",
+  zodiac: "Pisces",
+  rasi: "Kumbam",
+  nakshatra: "Sadhayam",
+  dob: "23 Feb 2001",
+  birthplace: "Dindigul",
+  diet: "Non-vegetarian",
 };
 
 export const aboutParagraphs = [
-  "I grew up between the old lanes of Lucknow and the relentless pace of Mumbai — a contrast that taught me the value of both patience and momentum.",
-  "On most days I'm running before sunrise, in back-to-back meetings by nine, and winding down with a record and a good book by ten. I'm a creature of ritual, though not of rigidity.",
-  "I care about integrity the way some people care about status — quietly, consistently. I'm looking for a partnership built on mutual respect, honest ambition, and a sense of humour that holds up on ordinary Tuesdays.",
+  "I was born in Dindigul on a cool February morning in 2001, and these days you'll find me in Coimbatore — where I split my time between building AI products, mentoring student communities, and logging miles on the road before the city wakes up.",
+  "I'm an enthu guy. I love what I do in tech, I show up for my friends, I take badminton a little too seriously, and I carry a camera almost everywhere. Running is my therapy, long drives are my reset, and design is how I think.",
+  "Relationships are where I am most myself. I'm emotionally expressive, I love loudly and honestly, and I believe the best partnerships feel like an old friendship — easy, loyal, and full of inside jokes.",
 ];
 
 export const career = [
   {
-    year: "2023 — Present",
-    role: "Principal, Investments",
-    place: "Meridian Capital, Mumbai",
-    note: "Leading growth-stage investments across fintech and climate.",
+    year: "Oct 2023 — Present",
+    role: "Head — Digital",
+    place: "KMCH & NGP Group, Coimbatore",
+    note: "Leading the digital charter across healthcare and education verticals.",
   },
   {
-    year: "2019 — 2023",
-    role: "Associate → VP",
-    place: "Blackstone, Singapore",
-    note: "Private equity across South-East Asia and India.",
+    year: "Nov 2023 — Present",
+    role: "AI Consultant",
+    place: "Pinesphere",
+    note: "Spearheading AI-driven R&D; designing production AI models aligned to business goals, and leading knowledge-transfer sessions on AI adoption.",
   },
   {
-    year: "2017 — 2019",
-    role: "Consultant",
-    place: "McKinsey & Company",
-    note: "Strategy for banking and consumer clients.",
+    year: "Dec 2022 — Oct 2023",
+    role: "AI Analyst & Data Science Intern",
+    place: "5C Network Pvt. Ltd.",
+    note: "Built AI models for Chest / Knee / Spine X-ray & CT diagnostics — assisted 6,000+ patient cases and cut inference time from 10s to <4s per case.",
+  },
+  {
+    year: "Jun 2021 — Dec 2021",
+    role: "Machine Learning Intern",
+    place: "Raptor Technologies India Pvt. Ltd.",
+    note: "Built ML models predicting NEET & JEE university placements, benefiting 2,500+ students.",
   },
 ];
 
 export const education = [
   {
-    year: "2015 — 2017",
-    degree: "MBA",
-    place: "The Wharton School, University of Pennsylvania",
-  },
-  {
-    year: "2009 — 2013",
-    degree: "B.Tech, Computer Science",
-    place: "Indian Institute of Technology, Bombay",
+    year: "2018 — 2023",
+    degree: "M.Sc. Data Science (5-Year Integrated) — CGPA 8.66",
+    place: "Coimbatore Institute of Technology",
   },
 ];
 
 export const hobbies = [
   {
-    title: "Horology",
+    title: "Running",
     description:
-      "I've kept the same vintage Seiko wound for a decade. Mechanical watches remind me that precision is a kind of quiet patience.",
+      "A half-marathoner who finds clarity somewhere around the 12th kilometre. The road has taught me more about discipline than any classroom.",
+    image:
+      "https://images.unsplash.com/photo-1550422119-c427b510b81c?auto=format&fit=crop&w=900&q=80",
+  },
+  {
+    title: "Designing",
+    description:
+      "Whether it's an AI workflow or a slide deck, I obsess over clean design. Good design is just respect for the person on the other side of the screen.",
     image:
       "https://images.pexels.com/photos/30324792/pexels-photo-30324792.jpeg?auto=compress&cs=tinysrgb&w=900",
   },
   {
-    title: "Long Reads",
+    title: "Long Drives",
     description:
-      "A leather-bound copy of The Brothers Karamazov, a single lamp, and nowhere to be until Monday. My favourite kind of evening.",
+      "Give me an open highway, a classic English playlist, and no destination — that's my idea of a reset button.",
     image:
       "https://images.unsplash.com/photo-1711843250811-a7d0bb485a42?auto=format&fit=crop&w=900&q=80",
-  },
-  {
-    title: "Road Trips & Trails",
-    description:
-      "A half-marathon before breakfast, or a slow drive through the Nilgiris with no destination. Both keep me honest.",
-    image:
-      "https://images.unsplash.com/photo-1550422119-c427b510b81c?auto=format&fit=crop&w=900&q=80",
   },
 ];
 
 export const interests = [
-  "Single malt & jazz",
-  "Hindustani classical",
-  "Formula 1 weekends",
-  "Cricket — Test format only",
-  "Chess (1900 Elo, slowly climbing)",
-  "Cooking a proper Sunday biryani",
-  "Vintage cameras",
-  "Long walks after rain",
+  "Gaming",
+  "Multi-cuisine eater",
+  "Travelling",
+  "Classic English songs",
+  "Long walks",
+  "Time with friends",
+  "Badminton",
+  "Photography",
 ];
 
+// These are the qualities I hope for in a partner.
 export const values = [
   {
-    icon: "ShieldCheck",
-    title: "Integrity",
-    text: "Your word is your signature. Everything else is negotiable.",
+    icon: "Heart",
+    title: "Emotionally Expressive",
+    text: "Someone who says what she feels, and listens the same way — love without guesswork.",
   },
   {
-    icon: "Compass",
-    title: "Discipline",
-    text: "Small, unglamorous habits, repeated for years. That's the whole game.",
+    icon: "Link",
+    title: "Deeply Connected",
+    text: "A partnership that's more than parallel lives — two people actually in each other's worlds.",
   },
   {
     icon: "Handshake",
-    title: "Respect",
-    text: "How you treat the waiter matters more than what you order.",
+    title: "Respectful",
+    text: "How we treat each other on the worst day matters more than on the best one.",
   },
   {
-    icon: "Target",
-    title: "Craft",
-    text: "Whatever is worth doing, is worth doing with care — even if no one is watching.",
-  },
-  {
-    icon: "BookOpen",
-    title: "Curiosity",
-    text: "I'd rather stay a good student for life than be an expert at anything.",
+    icon: "Sparkles",
+    title: "Matured",
+    text: "Thoughtful, grounded, and able to hold a hard conversation with grace.",
   },
   {
     icon: "Home",
-    title: "Family",
-    text: "The people you come home to are the measure of the life you've built.",
+    title: "Family-Oriented",
+    text: "Someone for whom family is a verb — a person who shows up for the people she loves.",
+  },
+  {
+    icon: "Smile",
+    title: "A Good Friend First",
+    text: "Warmth, loyalty, laughter on ordinary Tuesdays — the best marriages are built on friendship.",
   },
 ];
 
 export const family = {
   summary:
-    "I come from a close-knit Punjabi–Maharashtrian family. My father is a retired orthopaedic surgeon, my mother was a school principal for 32 years, and my elder sister is a barrister in London with her own young family.",
+    "It's just my mother and me. She is the iron lady of my life — she has stood by me with quiet, unshakable strength since my father passed away in 2018, and she is my everything.",
   values:
-    "Sundays are for long lunches, loud debates about politics and cricket, and my mother's non-negotiable ritual of everyone sitting down to eat together — no phones at the table.",
+    "Our home is small, warm, and entirely ours. Whoever I build a life with becomes family to her too — and her blessings are the foundation I want our story to begin on.",
 };
 
 export const lifeGoals = [
-  "To build a partnership rooted in respect, humour and honest ambition.",
-  "To raise children who are kind first, capable second.",
-  "To keep learning — a new language, a new instrument, a new country — every few years.",
-  "To retire early enough to teach, mentor, and finally write that book.",
+  "To build a partnership that feels like coming home — emotionally open, unshakably loyal.",
+  "To keep showing up for my mother, for my people, and for the student community that shaped me.",
+  "To stay at the edge of AI — not for the hype, but for the problems worth solving.",
+  "To run a full marathon, write more, travel slowly, and raise kids who are kind before anything else.",
 ];
 
 export const favoriteQuote = {
@@ -147,15 +153,14 @@ export const favoriteQuote = {
 };
 
 export const languages = [
+  { name: "Tamil", level: "Native" },
   { name: "English", level: "Fluent" },
-  { name: "Hindi", level: "Native" },
-  { name: "Punjabi", level: "Conversational" },
-  { name: "Marathi", level: "Conversational" },
-  { name: "Spanish", level: "Intermediate" },
+  { name: "Hindi", level: "Conversational" },
 ];
 
 export const connectInfo = {
-  email: "hello@arjunmehta.co",
+  email: "selvavigneshmds@gmail.com",
+  phone: "+91 89033 25222",
   note:
-    "If any of this resonates, I'd welcome a note from you or your family. No formality, no scripts — a simple introduction is the best place to begin.",
+    "If any of this resonates with you or your family, I'd be honoured to hear from you. A simple, honest introduction is the best place to begin.",
 };
