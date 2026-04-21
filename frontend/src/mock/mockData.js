@@ -75,11 +75,11 @@ export const hobbies = [
       "https://images.pexels.com/photos/4065509/pexels-photo-4065509.jpeg?auto=compress&cs=tinysrgb&w=900",
   },
   {
-    title: "Designing",
+    title: "Keyboardist",
     description:
-      "Whether it's a workflow or a slide deck, I obsess over clean design. Good design is just respect for the person on the other side of the screen.",
+      "Some evenings belong to the keys. Whether it's a film score or a slow improvisation, sitting at the keyboard is how I let the day settle.",
     image:
-      "https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "https://images.unsplash.com/photo-1653063051332-8e123e5113a1?auto=format&fit=crop&w=900&q=80",
   },
   {
     title: "Long Drives",
