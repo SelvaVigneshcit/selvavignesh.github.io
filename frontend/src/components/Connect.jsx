@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 import { connectInfo, profile } from "../mock/mockData";
 
 const Connect = () => {
@@ -33,52 +33,18 @@ const Connect = () => {
               </div>
 
               <a
-                href={`mailto:${connectInfo.email}`}
-                className="group flex items-start gap-4 py-4 border-b border-[#1F1F1F] hover:border-[#C9A961]/60 transition-colors duration-300"
-              >
-                <span className="mt-1 h-9 w-9 rounded-full bg-[#141414] border border-[#2A2A2A] flex items-center justify-center group-hover:border-[#C9A961] transition-colors duration-300">
-                  <Mail size={15} className="text-[#C9A961]" />
-                </span>
-                <span className="flex-1">
-                  <span className="block font-[Manrope] text-[10px] uppercase tracking-[0.3em] text-[#7A7364]">
-                    Email
-                  </span>
-                  <span className="block mt-1 font-[Cormorant_Garamond] text-[20px] text-[#F2EEE5] group-hover:text-[#C9A961] transition-colors duration-300 break-all">
-                    {connectInfo.email}
-                  </span>
-                </span>
-              </a>
-
-              <a
                 href={`tel:${connectInfo.phone.replace(/\s+/g, "")}`}
-                className="group flex items-start gap-4 py-4 border-b border-[#1F1F1F] hover:border-[#C9A961]/60 transition-colors duration-300"
-              >
-                <span className="mt-1 h-9 w-9 rounded-full bg-[#141414] border border-[#2A2A2A] flex items-center justify-center group-hover:border-[#C9A961] transition-colors duration-300">
-                  <Phone size={14} className="text-[#C9A961]" />
-                </span>
-                <span className="flex-1">
-                  <span className="block font-[Manrope] text-[10px] uppercase tracking-[0.3em] text-[#7A7364]">
-                    Phone
-                  </span>
-                  <span className="block mt-1 font-[Cormorant_Garamond] text-[20px] text-[#F2EEE5] group-hover:text-[#C9A961] transition-colors duration-300">
-                    {connectInfo.phone}
-                  </span>
-                </span>
-              </a>
-
-              <a
-                href={`tel:${connectInfo.momPhone.replace(/\s+/g, "")}`}
                 className="group flex items-start gap-4 py-4 hover:border-[#C9A961]/60 transition-colors duration-300"
               >
-                <span className="mt-1 h-9 w-9 rounded-full bg-[#141414] border border-[#2A2A2A] flex items-center justify-center group-hover:border-[#C9A961] transition-colors duration-300">
-                  <Phone size={14} className="text-[#C9A961]" />
+                <span className="mt-1 h-10 w-10 rounded-full bg-[#141414] border border-[#2A2A2A] flex items-center justify-center group-hover:border-[#C9A961] transition-colors duration-300">
+                  <Phone size={15} className="text-[#C9A961]" />
                 </span>
                 <span className="flex-1">
                   <span className="block font-[Manrope] text-[10px] uppercase tracking-[0.3em] text-[#7A7364]">
-                    Mother
+                    {connectInfo.phoneLabel}
                   </span>
-                  <span className="block mt-1 font-[Cormorant_Garamond] text-[20px] text-[#F2EEE5] group-hover:text-[#C9A961] transition-colors duration-300">
-                    {connectInfo.momPhone}
+                  <span className="block mt-1 font-[Cormorant_Garamond] text-[24px] text-[#F2EEE5] group-hover:text-[#C9A961] transition-colors duration-300">
+                    {connectInfo.phone}
                   </span>
                 </span>
               </a>

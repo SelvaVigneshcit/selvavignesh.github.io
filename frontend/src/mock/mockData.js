@@ -6,7 +6,7 @@ export const profile = {
   shortName: "Selva",
   age: 25,
   location: "Coimbatore, India",
-  tagline: "An enthu guy — tech, running shoes, and a big heart.",
+  tagline: "Movement, Mindset, Meaning.",
   intro:
     "I live life fully contributing to tech, mentoring student communities, chasing marathons, and loving deeply. I show up as a friend first, and I believe a partnership is built on emotional expression, honest conversations, and showing up on ordinary days.",
   heroImage:
@@ -26,7 +26,7 @@ export const profile = {
 };
 
 export const aboutParagraphs = [
-  "I was born in Dindigul on a cool February evening in 2001, and these days you'll find me in Coimbatore — where I split my time between building, mentoring student communities, and logging miles on the road before the city wakes up.",
+  "I was born in Dindigul on a cool February evening in 2001, and these days you'll find me in Coimbatore — where I split my time between work, mentoring student communities, and logging miles on the road before the city wakes up.",
   "I love what I do in my field, and I show up for my friends. I take running a little too seriously — running is my therapy, long drives are my reset, design is how I think, and Lord Shiva is my everything.",
   "Connections are where I am most myself. I'm emotionally expressive, I love loudly and honestly, and I believe the best partnerships feel like an old friendship — easy, loyal, and full of inside jokes.",
 ];
@@ -155,9 +155,8 @@ export const favoriteQuote = {
 };
 
 export const connectInfo = {
-  email: "selvavigneshmds@gmail.com",
-  phone: "+91 89033 25222",
-  momPhone: "+91 90428 25225",
+  phone: "+91 90428 25225",
+  phoneLabel: "Mother",
   note:
     "If any of this resonates with you or your family, I'd be honoured to hear from you. A simple, honest introduction is the best place to begin.",
 };
