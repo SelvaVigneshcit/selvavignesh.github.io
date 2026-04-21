@@ -1,162 +1,161 @@
-// Mock data for matrimonial persona portfolio
-// All values here are editable sample data
+// Mock data for matrimonial persona portfolio — luxury black edition
 
 export const profile = {
-  fullName: "Ananya Iyer",
-  shortName: "Ananya",
-  age: 27,
-  location: "Bengaluru, India",
-  tagline: "A quiet dreamer with a curious heart.",
+  fullName: "Arjun Mehta",
+  shortName: "Arjun",
+  age: 30,
+  location: "Mumbai, India",
+  tagline: "Measured in craft, steady in character.",
   intro:
-    "I believe in slow mornings, long walks, honest conversations, and building a home filled with books, music and warm light. This little page is a small window into who I am — not a résumé, just a gentle hello.",
+    "I believe in well-made things, quiet discipline, and the kind of conversations that last long after the coffee has gone cold. This page is a small, honest introduction — not a pitch, just a handshake.",
   heroImage:
-    "https://images.unsplash.com/photo-1724690336308-02af024b76ab?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1744551358258-5a5b9b268eca?auto=format&fit=crop&w=1200&q=80",
   aboutImage:
-    "https://images.pexels.com/photos/29375273/pexels-photo-29375273.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://images.unsplash.com/photo-1600261731040-80f8315adc7f?auto=format&fit=crop&w=1200&q=80",
   homeImage:
-    "https://images.unsplash.com/photo-1649089475838-00ddaabd1c82?auto=format&fit=crop&w=1400&q=80",
-  height: "5'6\"",
-  zodiac: "Libra",
-  diet: "Vegetarian",
+    "https://images.unsplash.com/photo-1711843250811-a7d0bb485a42?auto=format&fit=crop&w=1600&q=80",
+  height: "6'0\"",
+  zodiac: "Capricorn",
+  diet: "Omnivore",
 };
 
 export const aboutParagraphs = [
-  "I grew up between the coconut groves of Kerala and the soft chaos of Bengaluru, which, I think, is why I move between stillness and curiosity so easily.",
-  "On most days you'll find me sketching in the margins of meeting notes, over-brewing a second cup of filter coffee, or rearranging the same shelf of books for the fifth time this month.",
-  "I value kindness the way some people value ambition — fiercely, and without apology. I'm looking for a partnership that feels like a deep breath: easy, intentional, and full of small joys.",
+  "I grew up between the old lanes of Lucknow and the relentless pace of Mumbai — a contrast that taught me the value of both patience and momentum.",
+  "On most days I'm running before sunrise, in back-to-back meetings by nine, and winding down with a record and a good book by ten. I'm a creature of ritual, though not of rigidity.",
+  "I care about integrity the way some people care about status — quietly, consistently. I'm looking for a partnership built on mutual respect, honest ambition, and a sense of humour that holds up on ordinary Tuesdays.",
 ];
 
 export const career = [
   {
-    year: "2022 — Present",
-    role: "Senior Product Designer",
-    place: "Lumen Studios, Bengaluru",
-    note: "Leading design for healthcare and education products.",
+    year: "2023 — Present",
+    role: "Principal, Investments",
+    place: "Meridian Capital, Mumbai",
+    note: "Leading growth-stage investments across fintech and climate.",
   },
   {
-    year: "2020 — 2022",
-    role: "Product Designer",
-    place: "Fable Labs, Remote",
-    note: "Designed the flagship reading app used by 2M+ readers.",
+    year: "2019 — 2023",
+    role: "Associate → VP",
+    place: "Blackstone, Singapore",
+    note: "Private equity across South-East Asia and India.",
   },
   {
-    year: "2019 — 2020",
-    role: "Design Fellow",
-    place: "The Design Village",
-    note: "A year of craft, typography and quiet mentorship.",
+    year: "2017 — 2019",
+    role: "Consultant",
+    place: "McKinsey & Company",
+    note: "Strategy for banking and consumer clients.",
   },
 ];
 
 export const education = [
   {
-    year: "2017 — 2019",
-    degree: "M.Des. in Interaction Design",
-    place: "National Institute of Design, Ahmedabad",
+    year: "2015 — 2017",
+    degree: "MBA",
+    place: "The Wharton School, University of Pennsylvania",
   },
   {
-    year: "2013 — 2017",
-    degree: "B.Arch.",
-    place: "School of Planning and Architecture, Delhi",
+    year: "2009 — 2013",
+    degree: "B.Tech, Computer Science",
+    place: "Indian Institute of Technology, Bombay",
   },
 ];
 
 export const hobbies = [
   {
-    title: "Wheel Pottery",
+    title: "Horology",
     description:
-      "Thursdays, 7pm, hands covered in clay. It's the one hour a week I am completely, wonderfully, offline.",
+      "I've kept the same vintage Seiko wound for a decade. Mechanical watches remind me that precision is a kind of quiet patience.",
     image:
-      "https://images.unsplash.com/photo-1678296728930-775d299daaca?auto=format&fit=crop&w=900&q=80",
+      "https://images.pexels.com/photos/30324792/pexels-photo-30324792.jpeg?auto=compress&cs=tinysrgb&w=900",
   },
   {
-    title: "Botanical Watercolour",
+    title: "Long Reads",
     description:
-      "I keep a small journal of the flowers I meet on morning walks — messy, imperfect, mine.",
+      "A leather-bound copy of The Brothers Karamazov, a single lamp, and nowhere to be until Monday. My favourite kind of evening.",
     image:
-      "https://images.pexels.com/photos/5493923/pexels-photo-5493923.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "https://images.unsplash.com/photo-1711843250811-a7d0bb485a42?auto=format&fit=crop&w=900&q=80",
   },
   {
-    title: "Slow Mornings & Poetry",
+    title: "Road Trips & Trails",
     description:
-      "Mary Oliver on the balcony, second coffee, and the kind of quiet that makes the day feel longer.",
+      "A half-marathon before breakfast, or a slow drive through the Nilgiris with no destination. Both keep me honest.",
     image:
-      "https://images.unsplash.com/photo-1511555032926-8e21672aded4?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1550422119-c427b510b81c?auto=format&fit=crop&w=900&q=80",
   },
 ];
 
 export const interests = [
-  "Carnatic music",
-  "Film photography",
-  "Cooking Amma's recipes",
-  "Independent bookstores",
-  "Hiking in the Western Ghats",
-  "Letter writing",
-  "Jazz on rainy evenings",
-  "Visiting old temples & libraries",
+  "Single malt & jazz",
+  "Hindustani classical",
+  "Formula 1 weekends",
+  "Cricket — Test format only",
+  "Chess (1900 Elo, slowly climbing)",
+  "Cooking a proper Sunday biryani",
+  "Vintage cameras",
+  "Long walks after rain",
 ];
 
 export const values = [
   {
-    icon: "Heart",
-    title: "Kindness",
-    text: "I believe how you treat people on ordinary days matters more than anything else.",
+    icon: "ShieldCheck",
+    title: "Integrity",
+    text: "Your word is your signature. Everything else is negotiable.",
   },
   {
     icon: "Compass",
-    title: "Curiosity",
-    text: "I'd rather ask a good question than have a clever answer.",
+    title: "Discipline",
+    text: "Small, unglamorous habits, repeated for years. That's the whole game.",
   },
   {
-    icon: "Feather",
-    title: "Gentleness",
-    text: "Strength, but soft at the edges. Always.",
+    icon: "Handshake",
+    title: "Respect",
+    text: "How you treat the waiter matters more than what you order.",
   },
   {
-    icon: "Sparkles",
-    title: "Wonder",
-    text: "I still look up at the moon like it's the first time.",
+    icon: "Target",
+    title: "Craft",
+    text: "Whatever is worth doing, is worth doing with care — even if no one is watching.",
   },
   {
     icon: "BookOpen",
-    title: "Learning",
-    text: "Growing a little every year — quietly, without fuss.",
+    title: "Curiosity",
+    text: "I'd rather stay a good student for life than be an expert at anything.",
   },
   {
     icon: "Home",
-    title: "Rootedness",
-    text: "Family, rituals, traditions — the soil I grow from.",
+    title: "Family",
+    text: "The people you come home to are the measure of the life you've built.",
   },
 ];
 
 export const family = {
   summary:
-    "I come from a small, warm Tamil-Malayali family. My father is a retired civil engineer, my mother runs a little Kathak school, and my younger brother is pursuing medicine in Manipal.",
+    "I come from a close-knit Punjabi–Maharashtrian family. My father is a retired orthopaedic surgeon, my mother was a school principal for 32 years, and my elder sister is a barrister in London with her own young family.",
   values:
-    "Sunday lunches are sacred. We argue about cricket, agree about filter coffee, and end every evening with my mother playing the harmonium.",
+    "Sundays are for long lunches, loud debates about politics and cricket, and my mother's non-negotiable ritual of everyone sitting down to eat together — no phones at the table.",
 };
 
 export const lifeGoals = [
-  "To build a home that always smells like something good is cooking.",
-  "To travel slowly — one neighbourhood, one story at a time.",
-  "To keep making things with my hands, even when life gets busy.",
-  "To raise a family that reads together and laughs loudly.",
+  "To build a partnership rooted in respect, humour and honest ambition.",
+  "To raise children who are kind first, capable second.",
+  "To keep learning — a new language, a new instrument, a new country — every few years.",
+  "To retire early enough to teach, mentor, and finally write that book.",
 ];
 
 export const favoriteQuote = {
-  text: "Tell me, what is it you plan to do with your one wild and precious life?",
-  author: "Mary Oliver",
+  text: "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+  author: "Aristotle",
 };
 
 export const languages = [
   { name: "English", level: "Fluent" },
-  { name: "Tamil", level: "Native" },
-  { name: "Malayalam", level: "Conversational" },
-  { name: "Hindi", level: "Fluent" },
-  { name: "French", level: "Learning" },
+  { name: "Hindi", level: "Native" },
+  { name: "Punjabi", level: "Conversational" },
+  { name: "Marathi", level: "Conversational" },
+  { name: "Spanish", level: "Intermediate" },
 ];
 
 export const connectInfo = {
-  email: "hello@ananyaiyer.in",
+  email: "hello@arjunmehta.co",
   note:
-    "If any of this resonates, I'd love to hear from you or your family. No pressure, no formality — just a gentle hello.",
+    "If any of this resonates, I'd welcome a note from you or your family. No formality, no scripts — a simple introduction is the best place to begin.",
 };

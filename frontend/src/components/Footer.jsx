@@ -3,16 +3,17 @@ import { profile } from "../mock/mockData";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2C1F14] text-[#E3D5BD] py-12">
+    <footer className="bg-[#050505] text-[#A8A195] py-12 border-t border-[#1A1A1A]">
       <div className="max-w-6xl mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="font-[Playfair_Display] italic text-[22px] text-[#FAF5EC]">
-          {profile.shortName.toLowerCase()}.
+        <div className="font-[Cormorant_Garamond] text-[24px] text-[#F2EEE5]">
+          {profile.shortName}
+          <span className="text-[#C9A961]">.</span>
         </div>
-        <div className="text-[12px] tracking-[0.24em] uppercase text-[#C9A869]">
-          a gentle introduction
+        <div className="font-[Manrope] text-[10.5px] tracking-[0.36em] uppercase text-[#C9A961]">
+          An Introduction
         </div>
-        <div className="text-[12px] text-[#D8C6A8]/75">
-          © {new Date().getFullYear()} {profile.fullName} — made with warmth.
+        <div className="font-[Manrope] text-[11.5px] text-[#7A7364]">
+          © {new Date().getFullYear()} {profile.fullName} — all rights reserved.
         </div>
       </div>
     </footer>

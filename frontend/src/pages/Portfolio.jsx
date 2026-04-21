@@ -13,7 +13,7 @@ import { Toaster } from "../components/ui/toaster";
 
 const Portfolio = () => {
   return (
-    <div className="min-h-screen bg-[#FAF5EC] text-[#2C1F14] antialiased">
+    <div className="min-h-screen bg-[#0A0A0A] text-[#F2EEE5] antialiased">
       <Navbar />
       <main>
         <Hero />

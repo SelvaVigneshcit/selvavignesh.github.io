@@ -15,12 +15,11 @@ const Connect = () => {
     e.preventDefault();
     if (!form.name || !form.email || !form.message) {
       toast({
-        title: "A small something is missing",
+        title: "Something's missing",
         description: "Please fill your name, email and a short note.",
       });
       return;
     }
-    // Store locally as mock
     try {
       const prev = JSON.parse(localStorage.getItem("persona_messages") || "[]");
       prev.push({ ...form, at: new Date().toISOString() });
@@ -30,60 +29,60 @@ const Connect = () => {
     }
     setSent(true);
     toast({
-      title: "Thank you, truly.",
-      description: "Your message has been noted. I'll write back soon.",
+      title: "Thank you.",
+      description: "Your note has been received. I'll respond personally.",
     });
     setForm({ name: "", email: "", message: "" });
     setTimeout(() => setSent(false), 3500);
   };
 
   return (
-    <section id="connect" className="py-24 md:py-32 bg-[#F6EEDC]">
+    <section id="connect" className="py-24 md:py-32 bg-[#0D0D0D] border-t border-[#1A1A1A]">
       <div className="max-w-5xl mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-12 gap-12">
         <div className="md:col-span-5">
           <div className="flex items-center gap-3 mb-5">
-            <span className="h-[1px] w-8 bg-[#B86B4B]" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-[#6B5A4A]">
+            <span className="h-[1px] w-8 bg-[#C9A961]" />
+            <span className="font-[Manrope] text-[10.5px] tracking-[0.36em] uppercase text-[#8F8878]">
               Connect
             </span>
           </div>
-          <h2 className="font-[Playfair_Display] text-[#2C1F14] text-[38px] md:text-[48px] leading-[1.05] tracking-tight">
-            Say <span className="italic text-[#B86B4B]">hello.</span>
+          <h2 className="font-[Cormorant_Garamond] font-light text-[#F2EEE5] text-[42px] md:text-[52px] leading-[1.02] tracking-tight">
+            A proper <span className="italic text-[#C9A961] font-normal">introduction</span>.
           </h2>
-          <p className="mt-6 text-[15.5px] leading-[1.9] text-[#4A3A2A] max-w-md">
+          <p className="mt-6 font-[Manrope] font-light text-[15px] leading-[1.9] text-[#A8A195] max-w-md">
             {connectInfo.note}
           </p>
           <a
             href={`mailto:${connectInfo.email}`}
-            className="mt-8 inline-flex items-center gap-3 text-[15px] text-[#2C1F14] hover:text-[#B86B4B] transition-colors duration-300"
+            className="mt-8 inline-flex items-center gap-3 font-[Manrope] text-[14.5px] text-[#F2EEE5] hover:text-[#C9A961] transition-colors duration-300"
           >
-            <Mail size={17} className="text-[#B86B4B]" />
+            <Mail size={16} className="text-[#C9A961]" />
             {connectInfo.email}
           </a>
-          <div className="mt-10 pt-8 border-t border-[#D8C6A8] text-[13px] text-[#6B5A4A] italic font-[Playfair_Display]">
-            — with warmth, {profile.shortName}
+          <div className="mt-10 pt-8 border-t border-[#262626] font-[Cormorant_Garamond] italic text-[14px] text-[#7A7364]">
+            — sincerely, {profile.shortName}
           </div>
         </div>
 
         <form
           onSubmit={onSubmit}
-          className="md:col-span-7 bg-[#FAF5EC] border border-[#E3D5BD] p-6 md:p-10"
+          className="md:col-span-7 bg-[#0A0A0A] border border-[#1F1F1F] p-6 md:p-10"
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div>
-              <label className="block text-[11px] uppercase tracking-[0.24em] text-[#8A7458] mb-2">
+              <label className="block font-[Manrope] text-[10.5px] uppercase tracking-[0.3em] text-[#7A7364] mb-2">
                 Your name
               </label>
               <input
                 name="name"
                 value={form.name}
                 onChange={onChange}
-                className="w-full bg-transparent border-b border-[#D8C6A8] focus:border-[#B86B4B] outline-none py-2 text-[#2C1F14] text-[15px] transition-colors duration-300"
+                className="w-full bg-transparent border-b border-[#2A2A2A] focus:border-[#C9A961] outline-none py-2 text-[#F2EEE5] text-[15px] font-[Manrope] font-light transition-colors duration-300"
                 placeholder="Priya / Mrs. Menon"
               />
             </div>
             <div>
-              <label className="block text-[11px] uppercase tracking-[0.24em] text-[#8A7458] mb-2">
+              <label className="block font-[Manrope] text-[10.5px] uppercase tracking-[0.3em] text-[#7A7364] mb-2">
                 Your email
               </label>
               <input
@@ -91,13 +90,13 @@ const Connect = () => {
                 type="email"
                 value={form.email}
                 onChange={onChange}
-                className="w-full bg-transparent border-b border-[#D8C6A8] focus:border-[#B86B4B] outline-none py-2 text-[#2C1F14] text-[15px] transition-colors duration-300"
-                placeholder="priya@email.com"
+                className="w-full bg-transparent border-b border-[#2A2A2A] focus:border-[#C9A961] outline-none py-2 text-[#F2EEE5] text-[15px] font-[Manrope] font-light transition-colors duration-300"
+                placeholder="name@domain.com"
               />
             </div>
           </div>
           <div className="mt-6">
-            <label className="block text-[11px] uppercase tracking-[0.24em] text-[#8A7458] mb-2">
+            <label className="block font-[Manrope] text-[10.5px] uppercase tracking-[0.3em] text-[#7A7364] mb-2">
               A short note
             </label>
             <textarea
@@ -105,14 +104,14 @@ const Connect = () => {
               rows={5}
               value={form.message}
               onChange={onChange}
-              className="w-full bg-transparent border-b border-[#D8C6A8] focus:border-[#B86B4B] outline-none py-2 text-[#2C1F14] text-[15px] resize-none transition-colors duration-300"
+              className="w-full bg-transparent border-b border-[#2A2A2A] focus:border-[#C9A961] outline-none py-2 text-[#F2EEE5] text-[15px] font-[Manrope] font-light resize-none transition-colors duration-300"
               placeholder="A little about you, or your family — no formality needed."
             />
           </div>
 
           <button
             type="submit"
-            className="mt-8 inline-flex items-center gap-3 px-6 py-3 bg-[#2C1F14] text-[#FAF5EC] hover:bg-[#B86B4B] transition-colors duration-300 text-[12.5px] uppercase tracking-[0.22em]"
+            className="mt-8 inline-flex items-center gap-3 px-7 py-3.5 bg-[#C9A961] text-[#0A0A0A] hover:bg-[#DFC480] transition-colors duration-300 font-[Manrope] text-[11.5px] uppercase tracking-[0.3em] font-medium"
           >
             {sent ? (
               <>

@@ -1,47 +1,54 @@
 import React from "react";
-import { Heart, Compass, Feather, Sparkles, BookOpen, Home } from "lucide-react";
+import {
+  ShieldCheck,
+  Compass,
+  Handshake,
+  Target,
+  BookOpen,
+  Home,
+} from "lucide-react";
 import { values } from "../mock/mockData";
 
-const iconMap = { Heart, Compass, Feather, Sparkles, BookOpen, Home };
+const iconMap = { ShieldCheck, Compass, Handshake, Target, BookOpen, Home };
 
 const Character = () => {
   return (
-    <section id="values" className="py-24 md:py-32 bg-[#FAF5EC]">
+    <section id="values" className="py-24 md:py-32 bg-[#0A0A0A]">
       <div className="max-w-6xl mx-auto px-6 md:px-10">
         <div className="flex items-center gap-3 mb-5">
-          <span className="h-[1px] w-8 bg-[#B86B4B]" />
-          <span className="text-[11px] tracking-[0.3em] uppercase text-[#6B5A4A]">
-            Character & values
+          <span className="h-[1px] w-8 bg-[#C9A961]" />
+          <span className="font-[Manrope] text-[10.5px] tracking-[0.36em] uppercase text-[#8F8878]">
+            Character &amp; Values
           </span>
         </div>
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
-          <h2 className="font-[Playfair_Display] text-[#2C1F14] text-[40px] md:text-[54px] leading-[1.05] tracking-tight max-w-2xl">
-            What I hold <span className="italic text-[#B86B4B]">close.</span>
+          <h2 className="font-[Cormorant_Garamond] font-light text-[#F2EEE5] text-[44px] md:text-[60px] leading-[1.02] tracking-tight max-w-2xl">
+            What I hold <span className="italic text-[#C9A961] font-normal">close</span>.
           </h2>
-          <p className="max-w-md text-[15px] leading-[1.85] text-[#4A3A2A]">
-            These aren't things I aspire to — they are the small principles that
-            already run quietly under my days.
+          <p className="max-w-md font-[Manrope] font-light text-[14.5px] leading-[1.85] text-[#A8A195]">
+            These aren't aspirations — they're the quiet operating principles I've
+            tried to build my life around.
           </p>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[1px] bg-[#E3D5BD] border border-[#E3D5BD]">
+        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[1px] bg-[#1F1F1F] border border-[#1F1F1F]">
           {values.map((v) => {
-            const Icon = iconMap[v.icon] || Heart;
+            const Icon = iconMap[v.icon] || ShieldCheck;
             return (
               <div
                 key={v.title}
-                className="group relative bg-[#FAF5EC] p-8 md:p-10 hover:bg-[#F2E9D8] transition-colors duration-500"
+                className="group relative bg-[#0A0A0A] p-8 md:p-10 hover:bg-[#111111] transition-colors duration-500"
               >
-                <div className="h-10 w-10 rounded-full bg-[#F2E9D8] border border-[#D8C6A8] flex items-center justify-center group-hover:bg-[#B86B4B] group-hover:border-[#B86B4B] transition-colors duration-500">
+                <div className="h-11 w-11 rounded-full bg-[#141414] border border-[#2A2A2A] flex items-center justify-center group-hover:bg-[#C9A961] group-hover:border-[#C9A961] transition-colors duration-500">
                   <Icon
                     size={17}
-                    className="text-[#B86B4B] group-hover:text-[#FAF5EC] transition-colors duration-500"
+                    className="text-[#C9A961] group-hover:text-[#0A0A0A] transition-colors duration-500"
                   />
                 </div>
-                <h3 className="mt-6 font-[Playfair_Display] text-[26px] text-[#2C1F14] tracking-tight">
+                <h3 className="mt-6 font-[Cormorant_Garamond] text-[28px] text-[#F2EEE5] tracking-tight">
                   {v.title}
                 </h3>
-                <p className="mt-3 text-[14.5px] leading-[1.85] text-[#4A3A2A]">
+                <p className="mt-3 font-[Manrope] font-light text-[14px] leading-[1.85] text-[#A8A195]">
                   {v.text}
                 </p>
               </div>
