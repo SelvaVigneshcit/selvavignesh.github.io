@@ -9,7 +9,6 @@ import FamilyLife from "../components/FamilyLife";
 import Quote from "../components/Quote";
 import Connect from "../components/Connect";
 import Footer from "../components/Footer";
-import { Toaster } from "../components/ui/toaster";
 
 const Portfolio = () => {
   return (
@@ -26,7 +25,6 @@ const Portfolio = () => {
         <Connect />
       </main>
       <Footer />
-      <Toaster />
     </div>
   );
 };

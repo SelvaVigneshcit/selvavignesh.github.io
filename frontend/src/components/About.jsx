@@ -10,10 +10,10 @@ const About = () => {
             <div className="absolute inset-0 overflow-hidden shadow-[0_30px_90px_-30px_rgba(0,0,0,0.9)]">
               <img
                 src={profile.aboutImage}
-                alt="A quieter moment"
+                alt="Selva—a quieter moment"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A]/50 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A]/45 via-transparent to-transparent" />
             </div>
             <div className="absolute -right-3 -bottom-3 h-24 w-24 border border-[#C9A961]/70" />
           </div>
@@ -40,15 +40,15 @@ const About = () => {
           <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-xl">
             {[
               ["Height", profile.height],
-              ["Zodiac", profile.zodiac],
-              ["Diet", profile.diet],
-              ["Based in", profile.location.split(",")[0]],
+              ["Rasi", profile.rasi],
+              ["Nakshatra", profile.nakshatra],
+              ["Born", `${profile.dob} · ${profile.birthplace}`],
             ].map(([k, v]) => (
               <div key={k} className="border-t border-[#2A2A2A] pt-3">
                 <div className="font-[Manrope] text-[10px] uppercase tracking-[0.3em] text-[#7A7364]">
                   {k}
                 </div>
-                <div className="mt-1 font-[Cormorant_Garamond] text-[#F2EEE5] text-[19px]">
+                <div className="mt-1 font-[Cormorant_Garamond] text-[#F2EEE5] text-[18px] leading-snug">
                   {v}
                 </div>
               </div>

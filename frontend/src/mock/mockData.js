@@ -1,32 +1,34 @@
 // Mock data for Selva Vignesh M — matrimonial persona portfolio
 
 export const profile = {
-  fullName: "Selva Vignesh M",
+  fullName: "Selva Vignesh",
+  legalName: "Selva Vignesh M",
   shortName: "Selva",
   age: 25,
   location: "Coimbatore, India",
   tagline: "An enthu guy — tech, running shoes, and a big heart.",
   intro:
-    "I live life fully — contributing to tech, mentoring student communities, chasing marathons, and loving deeply. I show up as a friend first, and I believe a partnership is built on emotional expression, honest conversations, and showing up on ordinary days.",
+    "I live life fully contributing to tech, mentoring student communities, chasing marathons, and loving deeply. I show up as a friend first, and I believe a partnership is built on emotional expression, honest conversations, and showing up on ordinary days.",
   heroImage:
     "https://customer-assets.emergentagent.com/job_portfolio-pro-935/artifacts/j4mr5osm_WhatsApp%20Image%202026-04-21%20at%208.29.14%20AM.jpeg",
   aboutImage:
-    "https://images.unsplash.com/photo-1711843250811-a7d0bb485a42?auto=format&fit=crop&w=1200&q=80",
+    "https://customer-assets.emergentagent.com/job_portfolio-pro-935/artifacts/jp70qh8d_WhatsApp%20Image%202026-04-21%20at%2019.16.40.jpeg",
+  horoscopeImage:
+    "https://customer-assets.emergentagent.com/job_portfolio-pro-935/artifacts/kvr5douf_Horoscope_Selva.jpg",
   homeImage:
     "https://images.unsplash.com/photo-1711843250811-a7d0bb485a42?auto=format&fit=crop&w=1600&q=80",
   height: "6'0\"",
-  zodiac: "Pisces",
   rasi: "Kumbam",
   nakshatra: "Sadhayam",
   dob: "23 Feb 2001",
   birthplace: "Dindigul",
-  diet: "Non-vegetarian",
+  establishedLabel: "Est. 23 Feb 2001",
 };
 
 export const aboutParagraphs = [
-  "I was born in Dindigul on a cool February morning in 2001, and these days you'll find me in Coimbatore — where I split my time between building AI products, mentoring student communities, and logging miles on the road before the city wakes up.",
-  "I'm an enthu guy. I love what I do in tech, I show up for my friends, I take badminton a little too seriously, and I carry a camera almost everywhere. Running is my therapy, long drives are my reset, and design is how I think.",
-  "Relationships are where I am most myself. I'm emotionally expressive, I love loudly and honestly, and I believe the best partnerships feel like an old friendship — easy, loyal, and full of inside jokes.",
+  "I was born in Dindigul on a cool February evening in 2001, and these days you'll find me in Coimbatore — where I split my time between building, mentoring student communities, and logging miles on the road before the city wakes up.",
+  "I love what I do in my field, and I show up for my friends. I take running a little too seriously — running is my therapy, long drives are my reset, design is how I think, and Lord Shiva is my everything.",
+  "Connections are where I am most myself. I'm emotionally expressive, I love loudly and honestly, and I believe the best partnerships feel like an old friendship — easy, loyal, and full of inside jokes.",
 ];
 
 export const career = [
@@ -46,7 +48,7 @@ export const career = [
     year: "Dec 2022 — Oct 2023",
     role: "AI Analyst & Data Science Intern",
     place: "5C Network Pvt. Ltd.",
-    note: "Built AI models for Chest / Knee / Spine X-ray & CT diagnostics — assisted 6,000+ patient cases and cut inference time from 10s to <4s per case.",
+    note: "Built AI models for Chest, Knee and Spine X-ray / CT diagnostics — assisted 6,000+ patient cases and cut inference time from 10s to <4s per case.",
   },
   {
     year: "Jun 2021 — Dec 2021",
@@ -70,21 +72,21 @@ export const hobbies = [
     description:
       "A half-marathoner who finds clarity somewhere around the 12th kilometre. The road has taught me more about discipline than any classroom.",
     image:
-      "https://images.unsplash.com/photo-1550422119-c427b510b81c?auto=format&fit=crop&w=900&q=80",
+      "https://images.pexels.com/photos/4065509/pexels-photo-4065509.jpeg?auto=compress&cs=tinysrgb&w=900",
   },
   {
     title: "Designing",
     description:
-      "Whether it's an AI workflow or a slide deck, I obsess over clean design. Good design is just respect for the person on the other side of the screen.",
+      "Whether it's a workflow or a slide deck, I obsess over clean design. Good design is just respect for the person on the other side of the screen.",
     image:
-      "https://images.pexels.com/photos/30324792/pexels-photo-30324792.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&w=900",
   },
   {
     title: "Long Drives",
     description:
       "Give me an open highway, a classic English playlist, and no destination — that's my idea of a reset button.",
     image:
-      "https://images.unsplash.com/photo-1711843250811-a7d0bb485a42?auto=format&fit=crop&w=900&q=80",
+      "https://images.pexels.com/photos/36331525/pexels-photo-36331525.jpeg?auto=compress&cs=tinysrgb&w=900",
   },
 ];
 
@@ -99,12 +101,12 @@ export const interests = [
   "Photography",
 ];
 
-// These are the qualities I hope for in a partner.
+// Qualities I hope for in my partner.
 export const values = [
   {
     icon: "Heart",
     title: "Emotionally Expressive",
-    text: "Someone who says what she feels, and listens the same way — love without guesswork.",
+    text: "Someone who says what she feels, and listens the same way.",
   },
   {
     icon: "Link",
@@ -152,15 +154,10 @@ export const favoriteQuote = {
   author: "Aristotle",
 };
 
-export const languages = [
-  { name: "Tamil", level: "Native" },
-  { name: "English", level: "Fluent" },
-  { name: "Hindi", level: "Conversational" },
-];
-
 export const connectInfo = {
   email: "selvavigneshmds@gmail.com",
   phone: "+91 89033 25222",
+  momPhone: "+91 90428 25225",
   note:
     "If any of this resonates with you or your family, I'd be honoured to hear from you. A simple, honest introduction is the best place to begin.",
 };

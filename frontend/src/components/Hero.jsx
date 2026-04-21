@@ -10,7 +10,6 @@ const Hero = () => {
 
   return (
     <section className="relative pt-28 md:pt-32 pb-20 md:pb-28 overflow-hidden">
-      {/* subtle gold glow */}
       <div
         className="pointer-events-none absolute inset-0 opacity-60"
         style={{
@@ -28,8 +27,12 @@ const Hero = () => {
             </span>
           </div>
 
-          <h1 className="font-[Cormorant_Garamond] font-light text-[#F2EEE5] leading-[0.98] tracking-tight text-[56px] sm:text-[72px] md:text-[88px] lg:text-[104px]">
-            I am <span className="italic text-[#C9A961] font-normal">{profile.shortName}</span>.
+          <h1 className="font-[Cormorant_Garamond] font-light text-[#F2EEE5] leading-[0.98] tracking-tight text-[48px] sm:text-[64px] md:text-[76px] lg:text-[88px]">
+            I am{" "}
+            <span className="italic text-[#C9A961] font-normal whitespace-nowrap">
+              {profile.fullName}
+            </span>
+            .
           </h1>
 
           <p className="font-[Cormorant_Garamond] italic text-[22px] md:text-[26px] text-[#C9C3B3] mt-5 md:mt-6 max-w-xl">
@@ -45,7 +48,11 @@ const Hero = () => {
               <MapPin size={12} className="text-[#C9A961]" />
               {profile.location}
             </span>
-            {[`${profile.age} years`, profile.height, profile.zodiac].map((t) => (
+            {[
+              `${profile.age} years`,
+              profile.height,
+              `${profile.rasi} · ${profile.nakshatra}`,
+            ].map((t) => (
               <span
                 key={t}
                 className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-[#141414] border border-[#262626] font-[Manrope] text-[11.5px] tracking-wide text-[#C9C3B3]"
@@ -69,21 +76,20 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Portrait */}
         <div className="md:col-span-5 order-1 md:order-2 relative">
           <div className="relative aspect-[4/5] w-full max-w-[420px] mx-auto">
             <div className="absolute -inset-3 md:-inset-5 border border-[#C9A961]/60" />
             <div className="absolute inset-0 overflow-hidden shadow-[0_40px_100px_-30px_rgba(0,0,0,0.8)]">
               <img
                 src={profile.heroImage}
-                alt={profile.fullName}
-                className="w-full h-full object-cover"
-                style={{ filter: "saturate(0.9) contrast(1.05)" }}
+                alt={profile.legalName}
+                className="w-full h-full object-cover object-top"
+                style={{ filter: "saturate(0.95) contrast(1.03)" }}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A]/40 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A]/50 via-transparent to-transparent" />
             </div>
             <div className="absolute -bottom-4 -left-4 bg-[#0A0A0A] border border-[#2A2A2A] px-4 py-2 font-[Cormorant_Garamond] italic text-[#C9A961] text-[15px]">
-              est. {new Date().getFullYear() - profile.age}
+              {profile.establishedLabel}
             </div>
           </div>
         </div>

@@ -8,6 +8,7 @@ const links = [
   { id: "hobbies", label: "Pursuits" },
   { id: "values", label: "Values" },
   { id: "family", label: "Family" },
+  { id: "horoscope", label: "Horoscope" },
   { id: "connect", label: "Connect" },
 ];
 
