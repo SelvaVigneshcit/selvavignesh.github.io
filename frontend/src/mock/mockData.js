@@ -8,7 +8,7 @@ export const profile = {
   location: "Coimbatore, India",
   tagline: "Movement, Mindset, Meaning.",
   intro:
-    "I live life, fully contributing to tech and student communities, and chasing marathons. I show up as a friend first, and I believe a partnership is built on emotional expression, honest conversations, and showing up on ordinary days.",
+    "I live life, fully contributing to tech and student communities, and chasing marathons. I show up as a friend first, and I believe real partnerships are built on emotional openness, understanding, and consistency in everyday moments with an open heart.",
   heroImage:
     "https://customer-assets.emergentagent.com/job_portfolio-pro-935/artifacts/j4mr5osm_WhatsApp%20Image%202026-04-21%20at%208.29.14%20AM.jpeg",
   aboutImage:
